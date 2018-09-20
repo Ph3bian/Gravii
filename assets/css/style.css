@@ -21,11 +21,11 @@ section.section.wb {    padding: 4rem;}
 @media (min-width: 481px) and (max-width: 576px){.pr-max{padding-right: 13px !important}}
 @media (min-width: 1000px) and (max-width: 1239px){
 .pr-max {
-    padding-right: 225px!important;
+    padding-right: 23vw!important;
 }.right-side {
     position: absolute;
     margin-top: 13px !important;
-    right: -16px;
+    right: 0;
 }
 }
 
@@ -33,9 +33,9 @@ section.section.wb {    padding: 4rem;}
 .right-side {
     position: absolute;
     margin-top: 113px !important;
-    right: -16px;
+    right: 0;
 }.pr-max {
-    padding-right: 277px;
+    padding-right: 24.5vw!important;
 }
 }
 .counter{font-size: 18px;}
@@ -45,7 +45,6 @@ section#service {background: rgba(130,130,129,0.1); padding: 4rem; margin: 3rem 
 .service-item { text-align: left;margin-top: 0; position: relative;}
 .service-item .service-content {margin-top: 0;margin-left: 58px;}
 .pad-4{padding: 1rem;}
-.progress-bar {background-color: #00a247 !important;}
 #contact {background: rgba(0,0,0,0.88); color: #ffffff;}
 .form-control {border: 2px solid #bbbbbb !important; height:42px; border-top-left-radius: 5px; border-bottom-left-radius: 5px;  background: transparent; color: #000;}
 .footer-nav{list-style: none; font-size: 0.87rem; color: #ffffff;}
@@ -54,7 +53,7 @@ input[type=date], input[type=datetime-local], input[type=email], input[type=numb
     box-sizing: inherit;    -webkit-transition: all .3s;    transition: all .3s;}
 .md-form {    position: relative;}
 .form-control:focus {color: #828281; background-color: rgba(255,255,255,0.1);border-color: #00a247;outline: 0; box-shadow: unset;padding: 0.375rem 0.25rem!important;}
- a:hover, a:active{color: #FF7008 !important;}a{cursor:pointer}
+ a:hover, a:active, .btn-link,a.footer-link{color: #FF7008 !important;}a{cursor:pointer} .btn-link{font-size:16px}
 .form-control.form-gradient{box-shadow:  0 2px 3px rgba(0,0,0,.1)}
 .form-gradient .font-small {    font-size: 0.8rem; }
 .form-gradient .header {    border-top-left-radius: .3rem;    border-top-right-radius: .3rem; }
@@ -68,10 +67,10 @@ input#Form-email3 {    color: #828281; }.introd-section {padding-top: 5rem;paddi
 footer{    position: absolute;    bottom: 0;    width: 100%; right: 0; left: 0;}
 .card{box-shadow: 0 2px 3px rgba(0,0,0,.1); }
 .navbar-fixedTop{position: fixed; width: 100%; z-index: 500;} .btn-text{ font-size: 20px; margin-top: 1.5rem;color:#FF7008;padding: 0px;border-bottom:2px solid #FF7008; } button{outline:none!important;background-color:transparent; border-radius: 0px;}
-.sub-section-heading{padding-bottom:16px} .section-body{font-size:16px} .primary-orange{color:#FF7008; font-size:17px}.header-text{font-family: Roboto;font-style: normal;font-weight: bold;line-height: 56px;font-size: 40px;color: #454545;}
+.sub-section-heading{padding-bottom:16px; text-align: left} .section-body{font-size:16px} .primary-orange{color:#FF7008; font-size:17px}.header-text{font-family: Roboto;font-style: normal;font-weight: bold;line-height: 56px;font-size: 40px;color: #454545;}
 .hero-text{font-family: Roboto; font-style: normal; font-weight: 500; line-height: 63px; font-size: 43px;color: #000000;}
-.right-side{  position:absolute;  margin-top:-12px;right: -22px;} ul.footer-nav li{font-family: Roboto ;color:#797979;font-size: 16px;line-height: 31px;text-align: Left} .pr-max{padding-right: 23vw} li:hover{color:#FF7008} .trust{font-family: Roboto;font-style: normal;font-weight: normal;line-height: 35px;font-size: 18px;color: #000000;} .p-features{padding-top:4rem; padding-bottom:4rem;} .shadow{background-color:#ffffff; border-bottom: 1px solid #FF7008 ; -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1) !important;
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1) !important;} .px-56{padding-left: 6rem}
-#footer-nav{ background-color:#F8F8F8;padding-top:6rem; padding-bottom: 6rem }.hero-subtext{font-family: Roboto;font-style: normal;font-weight: normal;line-height: 31px;font-size: 16px;color: #000000; width:80%}li{list-style-type: none;}ul{-webkit-padding-start: 0px !important;} #trusted-logo{background-color: #f8f8f8} .bg-greyed{background-color:#f8f8f8 !important; padding-top:2rem; border-top: 1px solid #adadad}
+.right-side{  position:absolute;  margin-top:-12px;right: 0px;} ul.footer-nav li{font-family: Roboto ;color:#797979;font-size: 16px;line-height: 31px;text-align: Left} .pr-max{padding-right: 23vw} li:hover{color:#FF7008} .trust{font-family: Roboto;font-style: normal;font-weight: normal;line-height: 35px;font-size: 18px;color: #000000;} .p-features{padding-top:4rem; padding-bottom:4rem;} .shadow{background-color:#ffffff; border-bottom: 1px solid #FF7008 ; -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1) !important;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1) !important;} .px-56{padding-left: 3.5rem}
+#footer-nav{ background-color:#F8F8F8;padding-top:6rem; padding-bottom: 6rem }.hero-subtext{font-family: Roboto;font-style: normal;font-weight: normal;line-height: 31px;font-size: 16px;color: #000000; width:80%}li{list-style-type: none;}ul{-webkit-padding-start: 0px !important;} #trusted-logo{background-color: #f8f8f8} .bg-greyed{background-color:#f8f8f8 !important; width:100%; text-align:left; padding-top:2rem; border-top: 2px solid #e1e1e1}
 button.search-button {height: 42px;border:none;border-top-right-radius:5px;border-bottom-right-radius:5px; font-family: Roboto, sans-serif ;outline: none !important;background: #FF7008;color: #ffffff;font-size: 14px;    margin-top: -42px;
-    padding: 0 15px;  margin-left: 192px;position:absolute;}
+    padding: 0 15px;  margin-left: 68px;position:absolute;}
